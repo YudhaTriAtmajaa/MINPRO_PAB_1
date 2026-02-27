@@ -29,35 +29,35 @@ lib/
 ## Fitur Aplikasi
 
 ### 1. Daftar Produk
-- Menampilkan seluruh produk dalam tampilan **Grid 2 kolom**
-- Setiap kartu produk menampilkan **nama, harga, stok, deskripsi**, dan ikon produk
-- Tombol **EDIT** dan **DELETE** tersedia langsung di setiap kartu produk
+- Menampilkan seluruh produk dalam tampilan Grid 2 kolom
+- Setiap kartu produk menampilkan nama, harga, stok, deskripsi, dan ikon produk
+- Tombol EDIT dan DELETE tersedia langsung di setiap kartu produk
 
 ### 2. Tambah Produk
 - Halaman form khusus untuk menambahkan produk baru
-- Input field untuk **nama produk, harga, stok, dan deskripsi**
+- Input field untuk nama produk, harga, stok, dan deskripsi
 - Produk baru langsung muncul di halaman utama setelah disimpan
 
 ### 3. Edit Produk
-- Form edit yang sudah **terisi otomatis** dengan data produk yang dipilih
-- Pengguna dapat mengubah semua field: **nama, harga, stok, dan deskripsi**
+- Form edit yang sudah terisi otomatis dengan data produk yang dipilih
+- Pengguna dapat mengubah semua field: nama, harga, stok, dan deskripsi
 - Perubahan langsung diperbarui di halaman utama setelah disimpan
 
 ### 4. Hapus Produk
 - Tombol DELETE tersedia langsung di setiap kartu produk
-- Produk langsung **dihapus secara real-time** dari daftar tanpa konfirmasi tambahan
+- Produk langsung dihapus secara real-time dari daftar tanpa konfirmasi tambahan
 - Daftar produk otomatis diperbarui setelah penghapusan
 
 ### 5. Tampilan & Tema
-- Desain konsisten bertema **hijau islami** di seluruh halaman
-- **Gradient AppBar** dari hijau muda ke hijau tua
-- Background halaman utama menggunakan **gradient hijau lembut**
-- Kartu produk dengan **shadow dan rounded corner** untuk tampilan modern
+- Desain konsisten bertema hijau islami di seluruh halaman
+- Gradient AppBar dari hijau muda ke hijau tua
+- Background halaman utama menggunakan gradient hijau
+- Kartu produk dengan shadow dan rounded corner untuk tampilan modern
 
 ### 6. Navigasi
-- Halaman **daftar produk** sebagai halaman utama
-- Halaman **tambah produk** diakses melalui FloatingActionButton
-- Halaman **edit produk** diakses langsung dari tombol EDIT pada kartu produk
+- Halaman daftar produk sebagai halaman utama
+- Halaman tambah produk diakses melalui FloatingActionButton
+- Halaman edit produk diakses langsung dari tombol EDIT pada kartu produk
 ---
 
 ## Widget yang Digunakan
@@ -104,16 +104,16 @@ lib/
 
 ## Dokumentasi Aplikasi
 
-> Tampilan utama aplikasi, menampilkan beberapa produk yang sudah tersedia. Apabila ingin menambah produk, tekan button + dipojok kanan bawah
+> - Tampilan utama aplikasi, menampilkan beberapa produk yang sudah tersedia. Apabila ingin menambah produk, tekan button + dipojok kanan bawah
 > <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5c8c99e5-d7ff-4a05-9747-65365a0d10be" />
 
-> Halaman tambah produk, menampilkan form nama produk, harga, stok, deskripsi
+> - Halaman tambah produk, menampilkan field nama produk, harga, stok, deskripsi
 > <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/19d90378-de99-49fd-90a5-4e9ce45bd97d" />
 
-> Halaman edit produk, menampilkan form nama produk, harga, stok, deskripsi yang bisa di update/edit dan button update guna untuk mengubah data produk
+> - Halaman edit produk, menampilkan field nama produk, harga, stok, deskripsi yang bisa di update/edit dan button update guna untuk mengubah data produk
 > <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/31a99a4f-6419-488f-9b3c-47efaaf787d6" />
 
-> Hapus produk, apabila pengguna menekan button delete. Maka, data produk langsung terhapus
+> - Hapus produk, apabila pengguna menekan button delete. Maka, data produk langsung terhapus
 > <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5228b91c-3371-4847-b8a1-982c7c965ca8" />
 
 ---
