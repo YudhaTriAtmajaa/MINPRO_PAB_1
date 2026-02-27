@@ -45,16 +45,10 @@ lib/
 
 ### 4. Hapus Produk
 - Tombol DELETE tersedia langsung di setiap kartu produk
-- Produk langsung dihapus secara real-time dari daftar tanpa konfirmasi tambahan
+- Produk langsung dihapus secara real-time dari daftar produk
 - Daftar produk otomatis diperbarui setelah penghapusan
 
-### 5. Tampilan & Tema
-- Desain konsisten bertema hijau islami di seluruh halaman
-- Gradient AppBar dari hijau muda ke hijau tua
-- Background halaman utama menggunakan gradient hijau
-- Kartu produk dengan shadow dan rounded corner untuk tampilan modern
-
-### 6. Navigasi
+### 5. Navigasi
 - Halaman daftar produk sebagai halaman utama
 - Halaman tambah produk diakses melalui FloatingActionButton
 - Halaman edit produk diakses langsung dari tombol EDIT pada kartu produk
