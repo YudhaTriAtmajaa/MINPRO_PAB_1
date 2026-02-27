@@ -13,15 +13,15 @@ Aplikasi manajemen produk untuk toko baju muslim berbasis Flutter. Pengguna dapa
 ## Struktur Folder
 ```
 lib/
-├── main.dart                  # Entry point & konfigurasi tema
+├── main.dart                  
 ├── models/
-│   └── produk.dart            # Model data Produk
+│   └── produk.dart            
 ├── pages/
-│   ├── home_page.dart         # Halaman utama (grid produk)
-│   ├── tambah_page.dart       # Halaman tambah produk
-│   └── edit_page.dart         # Halaman edit produk
+│   ├── home_page.dart         
+│   ├── tambah_page.dart      
+│   └── edit_page.dart        
 └── widgets/
-    └── produk_card.dart       # Widget kartu produk
+    └── produk_card.dart      
 ```
 
 ---
