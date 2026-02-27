@@ -10,18 +10,20 @@ Aplikasi manajemen produk untuk toko baju muslim berbasis Flutter. Pengguna dapa
 
 ---
 
-## Dokumentasi Aplikasi
+## Struktur Folder
+```
+lib/
+├── main.dart                  # Entry point & konfigurasi tema
+├── models/
+│   └── produk.dart            # Model data Produk
+├── pages/
+│   ├── home_page.dart         # Halaman utama (grid produk)
+│   ├── tambah_page.dart       # Halaman tambah produk
+│   └── edit_page.dart         # Halaman edit produk
+└── widgets/
+    └── produk_card.dart       # Widget kartu produk
+```
 
-> Tampilan utama aplikasi, menampilkan beberapa produk yang sudah tersedia
-> <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5c8c99e5-d7ff-4a05-9747-65365a0d10be" />
-
-> Halaman tambah produk, menampilkan form nama produk, harga, stok, deskripsi
-> <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/19d90378-de99-49fd-90a5-4e9ce45bd97d" />
-
-> Halaman edit produk, menampilkan form nama produk, harga, stok, deskripsi yang bisa di update/edit dan button update guna untuk mengubah data produk
-> <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/31a99a4f-6419-488f-9b3c-47efaaf787d6" />
-
-> 
 ---
 
 ## Fitur Aplikasi
@@ -99,19 +101,21 @@ Aplikasi manajemen produk untuk toko baju muslim berbasis Flutter. Pengguna dapa
 
 ---
 
-## Struktur Folder
-```
-lib/
-├── main.dart                  # Entry point & konfigurasi tema
-├── models/
-│   └── produk.dart            # Model data Produk
-├── pages/
-│   ├── home_page.dart         # Halaman utama (grid produk)
-│   ├── tambah_page.dart       # Halaman tambah produk
-│   └── edit_page.dart         # Halaman edit produk
-└── widgets/
-    └── produk_card.dart       # Widget kartu produk
-```
+
+## Dokumentasi Aplikasi
+
+> Tampilan utama aplikasi, menampilkan beberapa produk yang sudah tersedia. Apabila ingin menambah produk, tekan button + dipojok kanan bawah
+> <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5c8c99e5-d7ff-4a05-9747-65365a0d10be" />
+
+> Halaman tambah produk, menampilkan form nama produk, harga, stok, deskripsi
+> <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/19d90378-de99-49fd-90a5-4e9ce45bd97d" />
+
+> Halaman edit produk, menampilkan form nama produk, harga, stok, deskripsi yang bisa di update/edit dan button update guna untuk mengubah data produk
+> <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/31a99a4f-6419-488f-9b3c-47efaaf787d6" />
+
+> Hapus produk, apabila pengguna menekan button delete. Maka, data produk langsung terhapus
+> <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5228b91c-3371-4847-b8a1-982c7c965ca8" />
 
 ---
+
 
